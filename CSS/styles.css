@@ -26,7 +26,7 @@
   color: #fff;
   height: 100;
   margin: 10;
-
+  text-align: left;
 }
 
 .Delivery{
@@ -34,4 +34,15 @@
   width: 80%;
   padding: 40px;
   margin: 100px auto;
+}
+
+form{
+  margin: 20px auto;
+  width: 320px;
+  color: skyblue;
+}
+
+input{
+  padding: 20px;
+  font-size: inherit;
 }
