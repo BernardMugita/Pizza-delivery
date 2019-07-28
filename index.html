@@ -10,13 +10,17 @@
   </head>
 
   <body>
-        <div class="header">
-      <h1>PIZZA DEL</h1>
-        </div>
-
-          <div class="container">
+      
+          <div class="header">
+             <h1>PIZZA DEL</h1>
+             <p>Welcome to Pizza Del<br><br> The fastes Pizza delivery platform</p>
+          </div>
+      
+          <div class="row">
+            <div class="container">
               <div class="body">
                 <h2><center>MAKE A CHOICE</center></h2>
+                <div class="col-md-4">
                   <form>
                     <label for="type">Type</label>
                     <select name="Pizza" id="">
@@ -31,7 +35,10 @@
                       <option value="Hawaiian">Hawaiian</option>
                     </select>
                   </form><br><br>
+                </div>
 
+                <div class="col-md-4">
+          
                   <form>
                     <label for="Size">Size</label>
                     <select name="Size" id="">
@@ -40,17 +47,23 @@
                       <option value="Small">Small</option>
                     </select>
                   </form><br><br>
+                </div>
+
+                <div class="col-md-4">
 
                   <form>
                     <label for="Number">Number</label>
                     <input type="number" class="form-control" id="Number">
                   </form><br><br>
+                </div>
               </div>
+            </div>
+          </div>
 
               <div class="Delivery">
                 <h3><center>Delivery</center></h3>
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <form>
                               <label for="Location">Location</label><br>
                                 <select name="Location">
@@ -65,18 +78,18 @@
                         </div><br>
 
                         
-                          <div class="col-md-3">
-                            <form>
-                              <label for="Cost">Cost</label>
-                              <input type="text" class="form-control" name="Cost">
-                            </form>
-                          </div><br>
+                        <div class="col-md-4">
+                          <form>
+                            <label for="Cost">Cost</label>
+                            <input type="text" class="form-control" name="Cost">
+                          </form>
+                        </div><br><br>
                         
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                           <form>
                               <button type="Order" id="btn" class="btn btn-primary">Order</button>
-                          </form><br>
+                          </form>
                         </div>
                     </div>      
                         
