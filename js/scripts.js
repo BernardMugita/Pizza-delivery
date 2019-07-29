@@ -4,7 +4,6 @@ $(document).ready(function () {
     $(this).find(".overlay").toggle(400);
   });
 
-  var totalPriceArray = [];
   function Choice(type, size, number, toppings, crust, deliver, location) {
     this.type = type;
     this.size = size;
@@ -34,11 +33,11 @@ $(document).ready(function () {
   //       };
 
   
-    $("button.proceed").click(function (event) {
-      let type = $("#type option:selected").val();
-      let size = $("#size option:selected").val();
-      let crust = $("#crust option:selected").val();
-      let topping = [];
+    $("button.btn").click(function (event) {
+      var type = $("#type option:selected").val();
+      var size = $("#size option:selected").val();
+      var crust = $("#crust option:selected").val();
+      var topping = [];
       $.each($("input[name='toppings']:checked"), function () {
         ptopping.push($(this).val());
       });
