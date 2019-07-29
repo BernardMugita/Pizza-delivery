@@ -1,5 +1,5 @@
 ## Bernard Mugita Pizza Del
-This is a Read me to my Pizaa delivery project at https://bernardmugita.github.io/Pizza-delivery/.
+This is a Read me to my Pizza delivery project at https://bernardmugita.github.io/Pizza-delivery/.
 
 ## Contributors
 Bernard Mugita
